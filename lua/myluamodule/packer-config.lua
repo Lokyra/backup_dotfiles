@@ -1,0 +1,5 @@
+return require("packer").startup(function()
+	use("wbthomason/packer.nvim")
+	use("joshdick/onedark.vim")
+	use("'neovim/nvim-lspconfig")
+end)

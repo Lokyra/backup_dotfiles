@@ -1,0 +1,1 @@
+require("myluamodule.packer-config")
