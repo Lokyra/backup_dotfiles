@@ -1,6 +1,4 @@
-require("myluamodule")
-local set = vim.opt
+require("lua/myluamodule.set")
 
 
 
-set.relativenumber = true

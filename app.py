@@ -5,12 +5,7 @@ def function(a, b):
 
 
 
-
-
-
-
-
-
+] tmux new-session
 
 
 function()
