@@ -1,3 +1,4 @@
+
 require("lspconfig").tsserver.setup{}
 
 require("lspconfig").ccls.setup{}

@@ -5,8 +5,7 @@ def function(a, b):
 
 
 
-] tmux new-session
-
+let x
 
 function()
 
