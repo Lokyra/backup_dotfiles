@@ -1,3 +1,3 @@
-let a = 100;
+   le a = 100;
 console.log(a)
  
