@@ -5,7 +5,7 @@ def function(a, b):
 
 
 
-let x
+let x = ,dnc
 
 function()
 
