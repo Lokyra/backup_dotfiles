@@ -1,2 +1,2 @@
-require("myluamodule.packer-config")
-require("myluamodule.set")
+require("ayoubousbia.packer-config")
+require("ayoubousbia.set")

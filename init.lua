@@ -1,4 +1,4 @@
-require("myluamodule")
+require("ayoubousbia")
 
 vim.opt.signcolumn = "yes"
 
