@@ -1,6 +1,8 @@
 
 require("lspconfig").tsserver.setup{}
 
+require'lspconfig'.prismals.setup{}
+
 require("lspconfig").ccls.setup{}
 
 require("lspconfig").pyright.setup{}

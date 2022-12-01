@@ -1,6 +1,7 @@
 return require("packer").startup(function()
+    use({ 'projekt0n/github-nvim-theme' })
 	use("wbthomason/packer.nvim")
-    use("joshdick/onedark.vim")
+    --use("joshdick/onedark.vim")
 	---
 	use("neovim/nvim-lspconfig")
     use("onsails/lspkind-nvim")
