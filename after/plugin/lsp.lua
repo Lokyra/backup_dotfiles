@@ -1,3 +1,13 @@
+require("nvim-lsp-installer").setup({
+ automatic_installation = true, --automatically detect which servers to install 
+    ui = {
+        icons = {
+            server_installed = "✓",
+            server_pending = "➜",
+            server_uninstalled = "✗"
+        }
+    }
+})
 
 require("lspconfig").tsserver.setup{}
 
@@ -7,7 +17,7 @@ require("lspconfig").ccls.setup{}
 
 require("lspconfig").pyright.setup{}
 
-require("lspconfig").solang.setup{}
+require("lspconfig").html.setup{}
 
 require("lspconfig").sumneko_lua.setup{}
 
@@ -58,3 +68,4 @@ cmp.setup {
       ['<C-y>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
     }),
 }
+
