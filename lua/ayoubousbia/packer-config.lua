@@ -43,5 +43,7 @@ return require("packer").startup(function()
 
     use("github/copilot.vim")
     use("theprimeagen/harpoon")
+    use("mbbill/undotree")
+    use("tpope/vim-fugitive")
 
 end)
