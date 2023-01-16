@@ -107,10 +107,5 @@ export PATH="/home/ayoub/lua-language-server/3rd/luamake/luamake:$PATH"
 alias vim="nvim"
 alias python="python3"
 alias cdd="cd ~/Documents"
-alias mux='pgrep -vx tmux > /dev/null && \
-        tmux new -d -s delete-me && \
-        tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh && \
-        tmux kill-session -t delete-me && \
-        tmux attach || tmux attach'
 
 alias luamake=/home/ayoub/lua-language-server/3rd/luamake/luamake
