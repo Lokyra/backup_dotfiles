@@ -107,5 +107,6 @@ export PATH="/home/ayoub/lua-language-server/3rd/luamake/luamake:$PATH"
 alias vim="nvim"
 alias python="python3"
 alias cdd="cd ~/Documents"
+alias cls="clear"
 
 alias luamake=/home/ayoub/lua-language-server/3rd/luamake/luamake
