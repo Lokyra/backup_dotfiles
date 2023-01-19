@@ -109,4 +109,14 @@ alias python="python3"
 alias cdd="cd ~/Documents"
 alias cls="clear"
 
+# Git aliases
+alias gitc = "git commit -m"
+alias gitp = "git push"
+alias gita = "git add"
+alias gitpl = "git pull"
+alias gitb = "git branch"
+alias gitco = "git checkout"
+alias gitst = "git status"
+alias gitl = "git log"
+
 alias luamake=/home/ayoub/lua-language-server/3rd/luamake/luamake
