@@ -45,5 +45,6 @@ return require("packer").startup(function()
     use("theprimeagen/harpoon")
     use("mbbill/undotree")
     use("tpope/vim-fugitive")
+    use("ThePrimeagen/vim-be-good")
 
 end)
