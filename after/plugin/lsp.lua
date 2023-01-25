@@ -19,6 +19,8 @@ require("lspconfig").pyright.setup{}
 
 require("lspconfig").html.setup{}
 
+require("lspconfig").emmet_ls.setup{}
+
 require("lspconfig").sumneko_lua.setup{}
 
 local lspkind = require('lspkind')
