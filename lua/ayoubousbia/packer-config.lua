@@ -10,7 +10,6 @@ return require("packer").startup(function()
     })
     use('nvim-treesitter/playground')
 
-    use("MunifTanjim/prettier.nvim")
 
     use {
       'VonHeikemen/lsp-zero.nvim',
